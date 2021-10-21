@@ -1,0 +1,54 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+.nav_ul{
+    display:flex;
+    align-items:center;
+    background-color: aquamarine;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 22px;
+    padding:2%;
+
+    
+}
+.bName{
+
+    flex-grow: 3;
+    /* margin-right: 700px; */
+}
+.home{
+    margin-right:20px;
+}
+.about{
+    margin-right:20px;
+}
+.contact{
+    margin-right:20px;
+}
+.artical_div{
+    width:50%;
+    margin:3% 0% 3% 3%;
+    
+}
+.artical_div p{
+    margin-top:2vh;
+}
+.artical_div a{
+    background-color: aquamarine;
+    padding-top: 50px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    /* padding:10px 15px; */
+}
+.main_div{
+    display:flex;
+}
+.img_div{
+    border: 1px solid black;
+}
+.img_div img{
+    border: 1px solid black;
+    align-items: center;
+}
