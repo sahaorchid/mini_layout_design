@@ -1,3 +1,6 @@
+:root{
+    --color:aquamarine;
+}
 *{
     margin:0px;
     padding:0px;
@@ -6,7 +9,7 @@
 .nav_ul{
     display:flex;
     align-items:center;
-    background-color: aquamarine;
+    background-color: var(--color);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 22px;
     padding:2%;
@@ -18,15 +21,15 @@
     flex-grow: 3;
     /* margin-right: 700px; */
 }
-.home{
+.nav_link{
     margin-right:20px;
 }
-.about{
+/* .about{
     margin-right:20px;
 }
 .contact{
     margin-right:20px;
-}
+} */
 .artical_div{
     width:50%;
     margin:3% 0% 3% 3%;
@@ -36,7 +39,7 @@
     margin-top:2vh;
 }
 .artical_div a{
-    background-color: aquamarine;
+    background-color: var(--color);;
     padding-top: 50px;
     padding: 10px 15px;
     border-radius: 5px;
@@ -44,11 +47,56 @@
 }
 .main_div{
     display:flex;
+    margin-top:100px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
 }
 .img_div{
     border: 1px solid black;
+    height: 300px;
+    width:250px;
+    border-radius: 15px;
+    background-color:var(--color);
+
 }
 .img_div img{
     border: 1px solid black;
     align-items: center;
+    padding:75px;
+    margin: 20px;
+    border-radius: 15px;
+
 }
+.img_div p{
+    padding-top: 30px;
+    text-align: center;
+}
+.footer_div{
+    display:flex;
+    /* flex-wrap: wrap; */
+}
+.footer_box{
+    border: 1px solid black;
+    height: 180px;
+    width:600px;
+    border-radius: 15px;
+    margin: 40px;
+    background-color:var(--color);
+}
+.footer_text{
+    margin:40px;
+}
+
+.srvc{
+    text-align: center;
+    margin-top:20px;
+    /* font-size:20px;
+    width: 20px; */
+    /* text-decoration: underline; */
+    border-bottom: 1px solid black;
+    width: 100px;
+    margin-left: 50%;
+    
+}
+
